@@ -1,0 +1,138 @@
+* {box-sizing:border-box;}
+
+container{
+    position: relative;
+}
+
+header{
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 6px;
+}
+
+
+
+.images, .gmail{
+    margin-top: 4px;
+}
+
+
+.material-icons, .gmail, .images, .apps-icon{
+    float:right
+}
+
+.gmail, .images, .material-icons{
+    margin-right: 15px;
+}
+
+
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+.searchbar{
+    position: relative;
+}
+@media (max-width: 660px){
+.searchbar {
+    width: 80%;
+}
+}
+.mic-icon{
+    position: absolute;
+    width: 15px;
+    top: 20px;
+    left: 360px;
+}
+
+#search-icon{
+    position:absolute;
+    top:20px;
+    left:20px;
+    color:rgb(112, 110, 110);
+    width:1px;
+    height:1px;
+}
+
+
+
+.middle-content{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-input{
+    padding:13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 450px;
+    border-width: thin;
+    border: solid 1.5px #D3D3D3;
+}
+
+.search-input:focus, .search-input:hover{
+    outline: none;
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+img{
+    position: relative;
+    top: 12px;
+    margin-left: 70px;
+}
+
+.buttons{
+    margin-left: 110px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.search-button{
+    margin-right: 10px;
+}
+
+.search-button, .lucky-button {
+    padding: 8px;
+    border: 0px;
+    border-radius: 5px;
+}
+.search-button:hover, .lucky-button:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-left: 0px;
+    color: #222;
+}
+
+.about, .advertising, .business, .how-search-works{
+    float: left;
+    margin-right: 27px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.privacy, .terms, .settings{
+    float: right;
+    margin-right: 27px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.about{
+    margin-left: 30px;
+}
+
+.footer a:link{
+    color:#70757a;
+    text-decoration: none;
+}
